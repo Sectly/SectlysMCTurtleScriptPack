@@ -2,6 +2,7 @@ local tSha = {}
 local Sectly = "Sectly"
 
 print(Sectly)
+sleep(1)
 shell.run('clear') -- Clears Screen For Start 
 os.setComputerLabel("Sectly's Script Pack!")
 label = ("Sectly's Script Pack!")
