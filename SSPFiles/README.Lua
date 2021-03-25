@@ -1,5 +1,5 @@
 -- Hello, User!
--- I see that your reading this!
+-- I see that your reading/viewing/checking/stealing this!
 -- Okay so welcome to SSP (Sectly's Script Pack)
 -- Its a minecraft turtle script hub with all my scripts!
 -- Thats it,
