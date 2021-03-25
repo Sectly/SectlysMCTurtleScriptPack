@@ -31,7 +31,6 @@ shell.run('clear')
 print("Sectly's Script Pack Loaded!")
 sleep(math.random(1,2))
 shell.run('clear')
--- Sectly's And TEC_NO's Scripts
 print("-----------------------------------")
 print("Hello ther!")
 print("Scripts:")
@@ -47,16 +46,9 @@ print("-----------------------------------")
 local runthatscript = tonumber(read())
 print(" ")
 print("-----------------------------------")
--- Thats It!
 sleep(math.random(1,2))
 shell.run('clear')
 print("Checking for script: "..runthatscript.."!")
-sleep(math.random(1,2))
-if scripttorun == 1 or scripttorun == 2 or scripttorun == 3 or scripttorun == 4 then
-print("Loading: "..runthatscript.."!")
-else
-print("Sorry can't find the script: "..runthatscript.."!")
-end
 sleep(math.random(1,2))
 shell.run('clear')
 print("Okay opening file!")
