@@ -59,22 +59,10 @@ print("Sorry can't find the script: "..runthatscript.."!")
 end
 sleep(math.random(1,2))
 shell.run('clear')
-print("-----------------------------------")
-print(" ")
-print("Are you sure you wane start the script: "..runthatscript.."?")
-print(" ")
-print("-----------------------------------")
-write('Please type, Y for yes or N for No! (Y/N)')
-local YesOrNo = read()
-if YesOrNo == "N" then
-shell.run('clear')
-print("Oops, Its seems that you said no, This prompt will reboot soon!")
-print("If you want to try again please restart the script with the pastebin: tvatMEaH")
-sleep(math.random(4,5))
-shell.run('reboot')
-elseif YesOrNo == "Y" then
 print("Okay opening file!")
-end
+sleep(math.random(1,2))
+shell.run('clear')
+sleep(1)
 if runthatscript == 1 then
 print("Starting: Remote Control Script, PC")
 local file = fs.open(folder.."/"..SSPFiles.."/".."RRC.Lua","w")
