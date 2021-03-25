@@ -52,7 +52,7 @@ sleep(math.random(1,2))
 shell.run('clear')
 print("Checking for script: "..runthatscript.."!")
 sleep(math.random(1,2))
-if scripttorun == 1 or 2 or 3 or 4 then
+if scripttorun == 1 or scripttorun == 2 or scripttorun == 3 or scripttorun == 4 then
 print("Loading: "..runthatscript.."!")
 else
 print("Sorry can't find the script: "..runthatscript.."!")
