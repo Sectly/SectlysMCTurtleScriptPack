@@ -102,3 +102,4 @@ print("If you want to try again please restart the script with the pastebin: tva
 sleep(math.random(4,5))
 shell.run('reboot')
 end
+end
