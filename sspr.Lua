@@ -1,5 +1,4 @@
 local tSha = {}
-local SSPFiles = "SSPFiles"
 local Sectly = "Sectly"
 
 print(Sectly)
@@ -60,22 +59,22 @@ shell.run('clear')
 sleep(1)
 if runthatscript == 1 then
 print("Starting: Remote Control Script, PC")
-local file = fs.open(folder.."/"..SSPFiles.."/".."RRC.Lua","w")
+local file = fs.open(SSPFiles.."/".."RRC.Lua","w")
 file.write(textutils.serialize(tSha))
 file.close()
 elseif runthatscript == 2 then
 print("Starting: Remote Control Script, Turtle")
-local file = fs.open(folder.."/"..SSPFiles.."/".."TRC.Lua","w")
+local file = fs.open(SSPFiles.."/".."TRC.Lua","w")
 file.write(textutils.serialize(tSha))
 file.close()
 elseif runthatscript == 3 then
 print("Starting: Strip Mining Script")
-local file = fs.open(folder.."/"..SSPFiles.."/".."Mine.Lua","w")
+local file = fs.open(SSPFiles.."/".."Mine.Lua","w")
 file.write(textutils.serialize(tSha))
 file.close()
 elseif runthatscript == 4 then
 print("Starting: Strip Mining Script")
-local file = fs.open(folder.."/"..SSPFiles.."/".."Quarry.Lua","w")
+local file = fs.open(SSPFiles.."/".."Quarry.Lua","w")
 file.write(textutils.serialize(tSha))
 file.close()
 else
