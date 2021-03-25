@@ -72,8 +72,9 @@ print("Oops, Its seems that you said no, This prompt will reboot soon!")
 print("If you want to try again please restart the script with the pastebin: tvatMEaH")
 sleep(math.random(4,5))
 shell.run('reboot')
-else
+elseif YesOrNo == "Y" then
 print("Okay opening file!")
+end
 if runthatscript == 1 then
 print("Starting: Remote Control Script, PC")
 local file = fs.open(folder.."/"..SSPFiles.."/".."RRC.Lua","w")
