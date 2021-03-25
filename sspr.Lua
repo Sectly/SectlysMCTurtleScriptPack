@@ -61,7 +61,7 @@ if runthatscript == 1 then
 print("Starting: Remote Control Script, PC")
 sleep(1)
 shell.run('clear')
-shell.run('pastebin run 19ti2GNM')')
+shell.run('pastebin run 19ti2GNM')
 elseif runthatscript == 2 then
 print("Starting: Remote Control Script, Turtle")
 sleep(1)
