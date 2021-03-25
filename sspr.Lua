@@ -44,7 +44,7 @@ print(" ")
 print("-----------------------------------")
 print("Type number of the script that you wane run!")
 print("-----------------------------------")
-local runthatscript = read()
+local runthatscript = tonumber(read())
 print(" ")
 print("-----------------------------------")
 -- Thats It!
